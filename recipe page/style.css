@@ -1,0 +1,372 @@
+@media  only screen and (max-width:1440px){
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.young-serif-regular {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .outfit-bold {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+
+body{
+    background-color: hsl(30, 54%, 90%);
+    padding: 3rem 1rem;
+}
+
+.main{
+    background-color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 20px;
+    width: 50%;
+    height:100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    text-align: left;
+    line-height: 1.3rem;
+}
+
+img{
+    padding: 5px;
+    height: 300px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+section{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section ul{
+    padding: 0 0 10px 1rem;
+    color:  hsl(30, 10%, 34%);
+}
+
+.first{
+    padding-left: 0.5rem;
+}
+
+
+.background{
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 0.7rem;
+    margin-left: 5px;
+}
+
+.background ul{
+    padding-left: 2.5rem;
+}
+
+.background li{
+    padding: 3px 10px 3px 10px;
+
+}
+
+.background li::marker {
+    color: hsl(332, 51%, 32%);
+    font-weight: 700;
+}
+
+h1{
+    font-family: "Young Serif", serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 22px;
+    color: hsl(24, 5%, 18%);
+    padding-top: 5px; 
+}
+
+span{
+    font-weight: 700;
+}
+
+p{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color:  hsl(30, 10%, 34%);
+}
+
+h2{
+    color: hsl(14, 45%, 36%);
+    padding-bottom: 10px;
+}
+
+h3{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color:  hsl(332, 51%, 32%);
+    padding-left: 1.3rem;
+}
+
+.second{
+    border-bottom: 1px solid  hsl(30, 18%, 87%);
+    padding-left: 0.7rem;
+}
+
+.second li{
+    padding: 3px 10px 3px 10px;
+}
+
+.third{
+    border-bottom: 1px solid  hsl(30, 18%, 87%);
+    padding-left: 0.7rem;
+}
+
+.third li{
+    padding: 3px 10px 3px 10px;
+    /* list-style-type: hsl(332, 51%, 32%); */
+   
+    list-style-type: decimal;
+}
+
+ li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+/* .third li span{
+    font-weight: bold;
+} */
+
+.fourth{
+    padding-top: 15px;
+    padding-left: 0.7rem;
+    padding-bottom: 10px;
+}
+
+table{
+    width: 90%;
+   padding-top: 10px;
+   font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+tr{
+   
+    padding: 7px;
+    padding-top: 5px;
+}
+
+td{
+    color: hsl(14, 45%, 36%);
+    padding-left: 9rem;
+    padding: 7px;
+    font-weight: bold;
+    border-bottom: 1px solid  hsl(30, 18%, 87%);
+}
+
+th{
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    color: hsl(30, 10%, 34%);
+    font-weight: normal;
+    padding-left: 1.7rem;
+}
+
+}
+
+
+@media  only screen and (min-width:375px){
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.young-serif-regular {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .outfit-bold {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+
+body{
+    background-color: hsl(30, 54%, 90%);
+    padding: 3rem 1rem;
+}
+
+.main{
+    background-color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 20px;
+    width: 60%;
+    height:100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    text-align: left;
+    line-height: 1.3rem;
+}
+
+img{
+    padding: 5px;
+    height:5%;
+    width: 100%;
+    border-radius: 15px;
+}
+
+section{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section ul{
+    padding: 0 0 10px 1rem;
+    color:  hsl(30, 10%, 34%);
+}
+
+.first{
+    padding-left: 0.5rem;
+}
+
+
+.background{
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 0.7rem;
+    margin-left: 5px;
+}
+
+.background ul{
+    padding-left: 2.5rem;
+}
+
+.background li{
+    padding: 3px 10px 3px 10px;
+
+}
+
+.background li::marker {
+    color: hsl(332, 51%, 32%);
+    font-weight: 700;
+}
+
+h1{
+    font-family: "Young Serif", serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 22px;
+    color: hsl(24, 5%, 18%);
+    padding-top: 5px; 
+}
+
+span{
+    font-weight: 700;
+}
+
+p{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color:  hsl(30, 10%, 34%);
+}
+
+h2{
+    color: hsl(14, 45%, 36%);
+    padding-bottom: 10px;
+}
+
+h3{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color:  hsl(332, 51%, 32%);
+    padding-left: 1.3rem;
+}
+
+.second{
+    border-bottom: 1px solid  hsl(30, 18%, 87%);
+    padding-left: 0.7rem;
+}
+
+.second li{
+    padding: 3px 10px 3px 10px;
+}
+
+.third{
+    border-bottom: 1px solid  hsl(30, 18%, 87%);
+    padding-left: 0.7rem;
+}
+
+.third li{
+    padding: 3px 10px 3px 10px;
+    /* list-style-type: hsl(332, 51%, 32%); */
+   
+    list-style-type: decimal;
+}
+
+ li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+/* .third li span{
+    font-weight: bold;
+} */
+
+.fourth{
+    padding-top: 15px;
+    padding-left: 0.7rem;
+    padding-bottom: 10px;
+}
+
+table{
+    width: 90%;
+   padding-top: 10px;
+   font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+tr{
+   
+    padding: 7px;
+    padding-top: 5px;
+}
+
+td{
+    color: hsl(14, 45%, 36%);
+    padding-left: 9rem;
+    padding: 7px;
+    font-weight: bold;
+    border-bottom: 1px solid  hsl(30, 18%, 87%);
+}
+
+th{
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    color: hsl(30, 10%, 34%);
+    font-weight: normal;
+    padding-left: 1.7rem;
+}
+
+}
