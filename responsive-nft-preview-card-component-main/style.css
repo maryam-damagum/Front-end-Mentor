@@ -1,0 +1,145 @@
+@import url(https://fonts.google.com/specimen/Outfit);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: outfit;
+}
+
+main{
+    border-radius: 15px;
+    background-color: hsl(216, 50%, 16%);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    height: 430px;
+    width: 260px;
+    padding: 1.5%;
+    box-shadow: 0 10px 20px  black;
+}
+
+.image-equilibrium{
+    position: relative;
+    height: 55%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.image-equilibrium img{
+    height: 100%;
+    width: 100%;
+}
+
+.image-equilibrium:hover .content{
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: 0.4s ease-in-out;
+    opacity: 0.5;
+    background-size: cover;
+    border-radius: 5px;
+    background-color: hsl(178, 100%, 50%);
+}
+
+.content{
+    display: none;
+}
+
+.content img{
+    position: absolute;
+    top: 45%;
+    left: 42%;
+    height: 15%;
+    width: 15%;
+}
+
+span{
+    color: hsl(215, 51%, 70%);
+}
+
+h1{
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+    margin: 3%;
+    margin-left: 0;
+    margin-top: 8%;
+    font-weight: 800;
+}
+
+h1:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+p{
+    margin-top: 5%;
+    font-size: 12px;
+    color: hsl(215, 51%, 70%);
+}
+
+hr{
+    margin-top: 2%;
+  border: 1px solid hsl(215, 32%, 27%);
+}
+
+div{
+    color: hsl(0, 0%, 100%);
+}
+
+.mid{
+    display: flex;
+    gap: 28%;
+    margin: 5px 0 15px 0;
+}
+
+.icon{
+    display: flex;
+    margin-top: 5%;
+    align-items: center;
+}
+
+.icon img{
+    height: 16px;
+    width: 16px;
+    margin-right: 3px;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.profile img{
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+}
+
+.profile p{
+    margin-top: 1%;
+    margin-left: 5%;
+    font-size: 12px;
+    font-weight: 400;
+    word-spacing: 3px;
+    color: hsl(0, 0%, 100%);
+}
+
+.icon p{
+    color: hsl(178, 100%, 50%);
+    font-weight: 400;
+}
+
+.profile p:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
