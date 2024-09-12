@@ -1,0 +1,237 @@
+@import url(https://fonts.google.com/specimen/Montserrat);
+@import url(https://fonts.google.com/specimen/Fraunces);
+
+
+@media only screen and (max-width:1440px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        font-family: montserrat;
+        font-weight: 500;
+        background-color: hsl(30, 38%, 92%);
+    }
+
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 7% auto;
+        height: 60vh;
+        width: 35vw;
+        border-radius: 10px;
+        background-color: hsl(0, 0%, 100%);
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 60vh;
+        margin: 5% 5% 0 5%;
+    }
+
+   .image img{
+        height: 60vh;
+    }
+
+     h1{
+        color: hsl(212, 21%, 14%); 
+        font-family: fraunces;
+        font-weight: 700;
+        line-height: 30px;
+        width: 95%;
+        
+    }
+
+    .price h2 {
+        font-family: montserrat;
+        color: hsl(158, 36%, 37%);
+        font-weight: 700;
+    }
+
+    h4{
+        font-family: montserrat;
+        font-weight: 500;
+        color: hsl(228, 12%, 48%);
+        letter-spacing: 4px;
+        margin: 10px 0; 
+        font-size: 18px;
+    }
+
+    p.text{
+        margin: 10% 0;
+        line-height: 20px;
+        font-size: 14px;
+        width: 100%;
+        color: hsl(228, 12%, 48%);
+    }
+
+    sup{
+        font-size: 11px;
+        color: hsl(228, 12%, 48%);
+        text-decoration-line: line-through;
+        text-align: center;
+        margin-left: 7px;
+    }
+
+    .price{
+        display: flex;
+        align-items: center;
+        margin: 5px ;
+    
+    }
+
+    .product-mobile{
+        display: none;
+    }
+
+    .product-desktop{
+        display: block;
+    }
+
+    .product-desktop img{ 
+        border-radius: 10px 0 0 10px;
+    }
+
+    button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5%;
+        height: 40px;
+        width: 95%;
+        margin-top: 5px;
+        padding: 5px;
+        border-radius: 5px;
+        font-size: 14px;
+        border: none;
+        text-align: center;
+        color: hsl(0, 0%, 100%);
+        background-color: hsl(158, 36%, 37%);
+    }
+
+}
+@media only screen and (max-width:678px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        font-family: montserrat;
+        font-weight: 500;
+        background-color: hsl(30, 38%, 92%);
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 7% auto;
+        height: 100%;
+        width: 57%;
+        background-color: hsl(0, 0%, 100%);
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        height: 40vh;
+        margin: 2% 5% 15% 10%;
+        /* padding: 0 2% 3% 2%; */
+       
+    }
+
+   .image img{
+        height: 40%;
+        width: 100%;
+        
+    }
+
+     h1{
+        color: hsl(212, 21%, 14%); 
+        font-family: fraunces;
+        font-weight: 700;
+        line-height: 30px;
+        width: 95%;
+        
+    }
+
+    .price h2 {
+        font-family: montserrat;
+        color: hsl(158, 36%, 37%);
+        font-weight: 700;
+    }
+
+    h4{
+        font-family: montserrat;
+        font-weight: 700;
+        color: hsl(228, 12%, 48%);
+        letter-spacing: 5px;
+        margin: 1% 0 2% 0; 
+        font-size: 14px;
+    }
+
+    p.text{
+        margin: 5% 0;
+        line-height: 20px;
+        font-size: 14px;
+        font-weight: 400;
+        width: 90%;
+        color: hsl(228, 12%, 48%);
+    }
+
+    sup{
+        font-size: 11px;
+        color: hsl(228, 12%, 48%);
+        text-decoration-line: line-through;
+        text-align: center;
+        margin-left: 7px;
+    }
+
+    .price{
+        display: flex;
+        align-items: center;
+        margin: 5px ;
+    
+    }
+
+    .product-mobile{
+        display: block;
+    }
+
+    .product-desktop{
+        display: none;
+    }
+
+    .product-mobile img{ 
+        border-radius: 10px 10px 0 0;
+    }
+
+    button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5%;
+        height: 50%;
+        width: 95%;
+        margin-top: 2px;
+        padding: 4%;
+        border-radius: 5px;
+        font-size: 14px;
+        border: none;
+        text-align: center;
+        color: hsl(0, 0%, 100%);
+        background-color: hsl(158, 36%, 37%);
+    }
+
+}
