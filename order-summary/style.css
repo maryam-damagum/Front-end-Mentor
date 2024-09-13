@@ -1,0 +1,242 @@
+@import url(https://fonts.google.com/specimen/Red+Hat+Display);
+
+@media screen and (min-width:375px){
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100svh;
+    padding: 1rem;
+    background-color: hsla(224, 23%, 55%, 0.514);
+    font-family: Red+Hat+Display;
+    background-size: cover;
+    background-image: url(./images/pattern-background-mobile.svg);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    height: 90vh;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 25rem;
+   
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 0 0 15px 15px;
+    background-color: hsl(225, 100%, 98%);
+}
+
+img{
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.summary{
+    display: flex;
+    flex-direction:row;
+    justify-content: left;
+    align-items:center;
+    width: 90%;
+    gap: 7%;
+    margin: 2%;
+    margin-bottom: 5%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    background-color: hsla(225, 47%, 23%, 0.048);
+}
+
+.summary img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    
+}
+
+h1{
+    font-size: 24px;
+    font-weight: 900;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+p{  
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    width: 65%;
+    margin: 3%;
+    color: hsl(224, 23%, 55%);
+}
+
+.summary a{ 
+    margin-left: 15%;
+    font-size: 14px;
+    font-weight: 700;
+    color:  hsl(245, 75%, 52%);
+}
+
+.summary a:hover{
+    color: hsla(245, 75%, 52%, 0.753);
+}
+
+button{
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    color: hsl(225, 100%, 94%);
+    background-color: hsl(245, 75%, 52%);
+    padding: 4%;
+    width: 90%;
+    box-shadow: 10px 0 20px hsla(224, 23%, 55%, 0.514);
+}
+
+button:hover{
+    background-color: hsla(245, 75%, 52%, 0.753);
+}
+
+.cancel {
+    font-weight: 900;
+}
+
+.cancel:hover{
+    color: black;
+}
+
+}
+
+
+@media screen and (max-width:1440px){
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100svh;
+    padding: 1rem;
+    background-color: hsla(224, 23%, 55%, 0.514);
+    font-family: Red+Hat+Display;
+    background-size: cover;
+    background-image: url(./images/pattern-background-desktop.svg);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    height: 90vh;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 25rem;
+   
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 0 0 15px 15px;
+    background-color: hsl(225, 100%, 98%);
+}
+
+img{
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.summary{
+    display: flex;
+    flex-direction:row;
+    justify-content: left;
+    align-items:center;
+    width: 90%;
+    gap: 7%;
+    margin: 2%;
+    margin-bottom: 5%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    background-color: hsla(225, 47%, 23%, 0.048);
+}
+
+.summary img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    
+}
+
+h1{
+    font-size: 24px;
+    font-weight: 900;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+p{  
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    width: 65%;
+    margin: 3%;
+    color: hsl(224, 23%, 55%);
+}
+
+.summary a{ 
+    margin-left: 15%;
+    font-size: 14px;
+    font-weight: 700;
+    color:  hsl(245, 75%, 52%);
+}
+
+.summary a:hover{
+    color: hsla(245, 75%, 52%, 0.753);
+}
+
+button{
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    color: hsl(225, 100%, 94%);
+    background-color: hsl(245, 75%, 52%);
+    padding: 4%;
+    width: 90%;
+    box-shadow: 10px 0 20px hsla(224, 23%, 55%, 0.514);
+}
+
+button:hover{
+    background-color: hsla(245, 75%, 52%, 0.753);
+}
+
+.cancel {
+    font-weight: 900;
+}
+
+.cancel:hover{
+    color: black;
+}
+
+}
