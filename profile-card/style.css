@@ -1,0 +1,81 @@
+@import url(https://fonts.google.com/specimen/Kumbh+Sans);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-img{
+    background-color:hsl(185, 75%, 39%);
+    background-image:url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg); 
+    background-repeat: no-repeat;
+}
+
+.card{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    font-family: Kumbh+Sans;
+}
+
+.card-img-top{
+    width: 100%;
+}
+
+.img2 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25%;
+    height: 120px;
+    width: 120px;
+    border: 7px solid white;
+}
+
+.col p{
+    font-size: 18px;
+}
+
+h5{
+    font-weight: 700;
+    font-family: Kumbh+Sans;
+}
+
+hr{
+    color: hsl(0, 0%, 59%);
+}
+
+p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Kumbh+Sans;
+    color: hsl(227, 10%, 46%);
+}
+
+td{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Kumbh+Sans;
+    color: hsl(227, 10%, 46%);
+}
+
+.col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+tr{
+    font-size: 18px;
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+}
+
+table{
+    width: 100%;
+} 
