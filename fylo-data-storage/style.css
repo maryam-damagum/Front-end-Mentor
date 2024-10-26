@@ -1,0 +1,236 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+--Gradient: hsl(6, 100%, 80%) to hsl(335, 100%, 65%);
+--Pale-Blue: hsl(243, 100%, 93%);
+--Grayish-Blue: hsl(229, 7%, 55%);
+--Dark-Blue: hsl(228, 56%, 26%);
+--Very-Dark-Blue: hsl(229, 57%, 11%);
+}
+
+body{
+    background-color: var(--Very-Dark-Blue);
+    background-image: url(./images/bg-mobile.png);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Raleway';
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.desktop{
+    display: none;
+}
+
+.data{
+    justify-content: left;
+    padding: 20px;
+    background-color: var(--Dark-Blue);
+    border-radius: 10px 90px 10px 10px; 
+}
+
+.limit{
+    position: relative;
+    padding: 2rem;
+    margin: 0 auto;
+    background-color: var(--Dark-Blue);
+    border-radius: 5px; 
+}
+
+h4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    gap: 5px;
+    left: 5rem;
+    right: 6.5rem;
+    top: 7rem;
+    color: black;
+    font-size: 220%;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.bold{
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+}
+
+span{
+    font-size: 10px;
+    color: hsl(229, 7%, 55%);
+}
+
+p{  
+    color: var(--Pale-Blue);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.progress{
+    display: flex;
+    position: relative;
+    margin: 1rem 0.5rem;
+    gap: 10px;
+}
+
+.progress p{
+    position: absolute;
+    top: 20px;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.progress p.gb{
+    position: absolute;
+    top: 20px;
+    left: 13.5rem;
+    width: 100%;
+}
+
+.line{
+    width: 100%;
+    height: 15px;
+    border: none;
+    border-radius: 50px;
+    background-color: var(--Very-Dark-Blue);
+}
+
+.gradient{
+    position: relative;
+    width: 70%;
+    height: 15px;
+    border: none;
+    border-radius: 50px;
+    background-image:-webkit-linear-gradient(left, hsl(6, 100%, 80%) , hsl(335, 100%, 65%));
+}
+
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin: 1.75px;
+    right: 0;
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+    background-color: var(--Pale-Blue);
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 2rem;
+    color: white;
+}
+
+.icons{
+    display: flex;
+    margin: 1rem 0 1rem 1rem;
+    gap: 1rem;
+}
+
+.icons img{
+    width: 55px;
+    height: 55px;
+    padding: 15px;
+    border-radius: 10px;    
+    background-color: var(--Very-Dark-Blue);
+}
+
+.logo{
+    width: 160px;
+    margin: 1.5rem 0 1rem 1rem;
+}
+
+@media (min-width:768px){
+
+body{
+    background-color: var(--Very-Dark-Blue);
+}
+
+    .content{
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        margin: 20px auto;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        color: white;
+    }
+
+    .desktop{
+        align-self: flex-end;
+    }
+
+h4{
+    padding: 5px 20px;
+    width: fit-content;
+    right: -40px;
+    top: -40px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+}
+
+h4::before{
+    content: "";
+    position: absolute;
+    background-color: white;
+    width: 15px;
+    height: 25px;
+    position: absolute;
+    right: 0;
+    bottom: -5px;
+    transform: skew(180deg, 36deg);
+   
+}
+
+
+    .limit{
+        padding: 2rem 4rem;
+        width: 100%;
+    }
+
+    .progress p.gb{
+        position: absolute;
+        top: 20px;
+        left: 10rem;
+        width: 100%;
+    }
+
+    p{
+        font-size: 14px;
+    }
+
+    icons{
+        gap: 5px;
+    }
+
+
+}
+
+ .attribution { 
+     color: var(--Grayish-Blue);
+     font-size: 11px; text-align: center; }
+ .attribution a { color: var(--Pale-Blue); }
